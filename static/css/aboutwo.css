@@ -1,0 +1,23 @@
+.with{
+    padding: 20px;
+    background: rgba(255,255,255,.7);
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.with>h3{
+    border-left: 3px solid #00CCFF;
+}
+.with>h3 span{
+    margin-left: 10px;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.with>p{
+    margin-top: 5px;
+}
+/*@media screen and (max-width:1477px){*/
+/*    .with{*/
+/*        width:100% !important;*/
+/*    }*/
+/*}*/
