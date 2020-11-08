@@ -51,7 +51,8 @@ body, html {
     top: 0;
     left: 0;
     border-bottom: 1px solid #6666;
-    font-size: 14px
+    font-size: 14px;
+    /*background: rgba(255,255,255,.6);*/
 }
 
 .container-fixed, .footer-fixed, .header-fixed {
@@ -360,7 +361,7 @@ body, html {
     .nav {
         display: none;
         width: 100%;
-        background: rgba(255, 255, 255, 0.7)
+        background: rgba(0, 0, 0, .1)
     }
 
     .nav li:before {
