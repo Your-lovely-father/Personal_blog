@@ -1,4 +1,4 @@
-﻿pre {
+pre {
     white-space: pre
 }
 
@@ -521,26 +521,19 @@
     opacity: 1
 }
 
-.share ul li.f-praise {
-    border-color: #f46753
+.share ul li.f-zan {
+	border-color:#fcc000;
+	background: #fcc000;
 }
-
-.share ul li.f-weinxi {
-    border-color: #5ac64f
+.share ul li.f-cai {
+    border-color: #f46753;
+	background:  #f46753;
 }
-
-.share ul li.f-sina {
-    border-color: #ff7171
+.Size{
+	color: #fff !important;
+	font-size: 2rem;
+	font-weight: 700;
 }
-
-.share ul li.f-qzone {
-    border-color: #fbb611
-}
-
-.share ul li.f-qq {
-    border-color: #14afff
-}
-
 .share ul li a {
     position: absolute;
     background: url(../img/ren.jpg) no-repeat;
