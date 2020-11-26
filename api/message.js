@@ -64,7 +64,7 @@ layui.use(['element', 'jquery', 'form', 'layedit', 'flow'], function() {
 				content: layedit.getContent(editIndex),
 				cname: cname,
 				id:id,
-				state:Number(0)
+				state:0
 			}
 			$.ajax({
 				url:"http://localhost:3000/addReplyMessage",
@@ -100,7 +100,7 @@ function list(){
 				//对数据做遍历，拼接到页面显示
 				var allYh = data.data.list;
 				for (var i = 0; i < allYh.length; i++) {
-					xiangqing(allYh[i]._id)
+					xiangqing(allYh[i]._id,allYh[i].name)
 					strYh +=
 						`
 						<li class="zoomIn article">
@@ -137,11 +137,12 @@ function list(){
 list()
 
 
-function xiangqing(id){
+function xiangqing(id,name){
 	//详情
 	var data={
 		id:id
 	}
+	var arr=[]
 	$.ajax({
 		url: "http://localhost:3000/getMessageDetail",
 		type: "post",
@@ -150,11 +151,11 @@ function xiangqing(id){
 		success: function(data) {
 			if (data.code == 0) {
 				var allQt =data.data.reply_list
+				if(allQt.length>=1){		
 				//拼接字符串
-				var strQt = '';
+				var strQt = '';				
 				for (var i = 0; i < allQt.length; i++) {
-					console.log(allQt[i])
-					if(allQt[i].state==1){
+					if(allQt[i].state==1 && $('.bozu').text()=='博主'){
 						$('.bozu').css({
 							"font-size": "20px",
 							"color": "#fcc000"
@@ -168,7 +169,7 @@ function xiangqing(id){
 								<div class="info">
 									<span class="username bozu">${allQt[i].name}</span>
 									<span style="padding-right:0;margin-left:-5px;">回复</span>
-									<span class="username">姊姊</span>
+									<span class="username">${name}</span>
 									<span>${allQt[i].content}</span>
 								</div>
 								<p class="info">
@@ -181,7 +182,8 @@ function xiangqing(id){
 						`
 				}
 				//放入页面的容器显示
-				$('.comment-parent').after(strQt);
+				$('.article').append(strQt);
+				}
 			}
 		},
 		error: function() {

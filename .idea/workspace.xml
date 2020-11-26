@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3146ac58-dbb7-4801-a6f7-592fb8ef614e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/js/bg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/master.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/yss/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/yss/article.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/diary.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/diary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/link.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/read.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/read.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/message.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +39,11 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\86159\Desktop\Blogs" />
@@ -64,6 +60,9 @@
       <workItem from="1604718659516" duration="21825000" />
       <workItem from="1604745011480" duration="5919000" />
       <workItem from="1604806271810" duration="10176000" />
+      <workItem from="1606284692305" duration="1421000" />
+      <workItem from="1606357256839" duration="83000" />
+      <workItem from="1606382306442" duration="361000" />
     </task>
     <servers />
   </component>
@@ -75,6 +74,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="511" y="269" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1604813517715" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1606284709907">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1606284709907" />
     <state x="467" y="149" width="602" height="558" key="find.popup" timestamp="1604746649338">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
